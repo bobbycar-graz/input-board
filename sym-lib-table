@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name input-board)(type Legacy)(uri ${KIPRJMOD}/input-board.lib)(options "")(descr ""))
   (lib (name boardcomputer)(type Legacy)(uri X:/bobbycar/bobbycar-boardcomputer-hardware/lib/boardcomputer.lib)(options "")(descr ""))
+  (lib (name input-board-rescue)(type Legacy)(uri ${KIPRJMOD}/input-board-rescue.lib)(options "")(descr ""))
 )

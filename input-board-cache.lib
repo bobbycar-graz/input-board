@@ -217,11 +217,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# boardcomputer_CDSOD323
+# input-board-rescue_CDSOD323-boardcomputer
 #
-DEF boardcomputer_CDSOD323 D 0 40 Y Y 1 F N
+DEF input-board-rescue_CDSOD323-boardcomputer D 0 40 Y Y 1 F N
 F0 "D" -50 -200 50 H V C CNN
-F1 "boardcomputer_CDSOD323" 0 150 50 H V C CNN
+F1 "input-board-rescue_CDSOD323-boardcomputer" 0 150 50 H V C CNN
 F2 "Diode_SMD:D_SOD-323" 0 150 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 DRAW
@@ -235,11 +235,11 @@ X A 2 200 0 100 L 50 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# boardcomputer_MPM3620
+# input-board-rescue_MPM3620-boardcomputer
 #
-DEF boardcomputer_MPM3620 U 0 40 Y Y 1 F N
+DEF input-board-rescue_MPM3620-boardcomputer U 0 40 Y Y 1 F N
 F0 "U" 200 400 50 H V C CNN
-F1 "boardcomputer_MPM3620" -200 400 50 H V C CNN
+F1 "input-board-rescue_MPM3620-boardcomputer" -200 400 50 H V C CNN
 F2 "boardcomputer:QFN-20-1EP_3x5mm_P0.85mm" -100 -1050 50 H I C CNN
 F3 "" -300 -500 50 H I C CNN
 DRAW
