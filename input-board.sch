@@ -501,21 +501,6 @@ F 3 "" H 8400 4650 50  0001 C CNN
 	1    8400 4650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J8
-U 1 1 5E86CC34
-P 8200 4750
-F 0 "J8" V 8164 4562 50  0000 R CNN
-F 1 "GAS" V 8073 4562 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 8200 4750 50  0001 C CNN
-F 3 "~" H 8200 4750 50  0001 C CNN
-	1    8200 4750
-	-1   0    0    1   
-$EndComp
-Text GLabel 6650 5400 2    50   Input ~ 0
-GND
-Text GLabel 6750 5700 2    50   Input ~ 0
-15V
 Text GLabel 6650 5600 2    50   Input ~ 0
 CANH
 Text GLabel 6650 5500 2    50   Input ~ 0
@@ -580,8 +565,6 @@ F 4 "C21190" H 10000 4750 50  0001 C CNN "LCSC Part #"
 	1    10000 4750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8550 4750 8400 4750
 Wire Wire Line
 	9650 4750 9850 4750
 Wire Wire Line
@@ -1974,8 +1957,6 @@ F 4 "C15850" H 8900 3650 50  0001 C CNN "LCSC Part #"
 	1    8900 3650
 	-1   0    0    1   
 $EndComp
-Text GLabel 7950 3450 0    50   Input ~ 0
-15V
 $Comp
 L power:GND #PWR03
 U 1 1 6038A68F
@@ -2010,8 +1991,6 @@ F 3 "" H 8100 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 3450 8100 3450
-Wire Wire Line
 	8100 3500 8100 3450
 Connection ~ 8100 3450
 Wire Wire Line
@@ -2026,4 +2005,66 @@ Wire Wire Line
 	8900 3450 9150 3450
 Wire Wire Line
 	8500 3800 8500 3750
+$Comp
+L power:GND #PWR0131
+U 1 1 6044F5E3
+P 6650 5400
+F 0 "#PWR0131" H 6650 5150 50  0001 C CNN
+F 1 "GND" V 6655 5272 50  0000 R CNN
+F 2 "" H 6650 5400 50  0001 C CNN
+F 3 "" H 6650 5400 50  0001 C CNN
+	1    6650 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+15V #PWR0132
+U 1 1 6045EA3C
+P 6750 5700
+F 0 "#PWR0132" H 6750 5550 50  0001 C CNN
+F 1 "+15V" V 6765 5828 50  0000 L CNN
+F 2 "" H 6750 5700 50  0001 C CNN
+F 3 "" H 6750 5700 50  0001 C CNN
+	1    6750 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+15V #PWR0133
+U 1 1 6046A7D2
+P 8000 3450
+F 0 "#PWR0133" H 8000 3300 50  0001 C CNN
+F 1 "+15V" H 8015 3623 50  0000 C CNN
+F 2 "" H 8000 3450 50  0001 C CNN
+F 3 "" H 8000 3450 50  0001 C CNN
+	1    8000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3450 8100 3450
+NoConn ~ 5000 1800
+NoConn ~ 5000 1900
+NoConn ~ 5000 2000
+NoConn ~ 5000 1600
+NoConn ~ 6300 2400
+NoConn ~ 6300 2500
+NoConn ~ 6300 2600
+NoConn ~ 6300 2700
+NoConn ~ 6300 2800
+NoConn ~ 6300 2900
+NoConn ~ 6300 3100
+NoConn ~ 6300 3200
+NoConn ~ 5000 2700
+Wire Wire Line
+	8550 4750 8400 4750
+$Comp
+L Connector_Generic:Conn_01x03 J8
+U 1 1 5E86CC34
+P 8200 4750
+F 0 "J8" V 8164 4562 50  0000 R CNN
+F 1 "GAS" V 8073 4562 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 8200 4750 50  0001 C CNN
+F 3 "~" H 8200 4750 50  0001 C CNN
+	1    8200 4750
+	-1   0    0    1   
+$EndComp
+NoConn ~ 5500 900 
 $EndSCHEMATC
