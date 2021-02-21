@@ -604,7 +604,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 4950 5300 4850
 $Comp
-L input-board-rescue:CDSOD323-boardcomputer D1
+L input-board:CDSOD323-boardcomputer D1
 U 1 1 60339500
 P 8150 5800
 F 0 "D1" V 8150 5550 50  0000 L CNN
@@ -895,7 +895,7 @@ Connection ~ 9550 6000
 Wire Wire Line
 	9250 6000 9550 6000
 $Comp
-L input-board-rescue:CDSOD323-boardcomputer D2
+L input-board:CDSOD323-boardcomputer D2
 U 1 1 603375D7
 P 9850 5800
 F 0 "D2" V 9854 5930 50  0000 L CNN
@@ -923,7 +923,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2350 2650 2350
 $Comp
-L input-board-rescue:CDSOD323-boardcomputer D4
+L input-board:CDSOD323-boardcomputer D4
 U 1 1 6033E4AF
 P 2650 2150
 F 0 "D4" V 2654 2280 50  0000 L CNN
@@ -1073,7 +1073,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 1650 2650 1650
 $Comp
-L input-board-rescue:CDSOD323-boardcomputer D3
+L input-board:CDSOD323-boardcomputer D3
 U 1 1 603C8813
 P 2650 1450
 F 0 "D3" V 2654 1580 50  0000 L CNN
@@ -1197,7 +1197,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 4700 3550 4700
 $Comp
-L input-board-rescue:CDSOD323-boardcomputer D7
+L input-board:CDSOD323-boardcomputer D7
 U 1 1 60404627
 P 3550 4500
 F 0 "D7" V 3554 4630 50  0000 L CNN
@@ -1277,7 +1277,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 5400 3550 5400
 $Comp
-L input-board-rescue:CDSOD323-boardcomputer D8
+L input-board:CDSOD323-boardcomputer D8
 U 1 1 60404651
 P 3550 5200
 F 0 "D8" V 3554 5330 50  0000 L CNN
@@ -1357,7 +1357,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 4000 3550 4000
 $Comp
-L input-board-rescue:CDSOD323-boardcomputer D6
+L input-board:CDSOD323-boardcomputer D6
 U 1 1 6040467B
 P 3550 3800
 F 0 "D6" V 3554 3930 50  0000 L CNN
@@ -1785,7 +1785,7 @@ F 3 "" H 7250 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L input-board-rescue:CDSOD323-boardcomputer D5
+L input-board:CDSOD323-boardcomputer D5
 U 1 1 603B76B7
 P 2650 2850
 F 0 "D5" V 2654 2980 50  0000 L CNN
