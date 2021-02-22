@@ -1779,7 +1779,7 @@ F 0 "X1" H 4444 1946 50  0000 L CNN
 F 1 "ASCO" H 4444 1855 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm" H 4100 1550 50  0001 C CNN
 F 3 "https://abracon.com/Oscillators/ASCO.pdf" H 3775 2025 50  0001 C CNN
-F 4 "C390520" H 4000 1900 50  0001 C CNN "LCSC Part #"
+F 4 "C387448" H 4000 1900 50  0001 C CNN "LCSC Part #"
 	1    4000 1900
 	1    0    0    -1  
 $EndComp
